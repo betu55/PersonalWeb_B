@@ -2,6 +2,22 @@ body{
 	background: rgba(80, 80, 80, 1);
 }
 
+.my-navbar-container{
+	color: rgba(200, 200, 200, .9) !important;
+}
+
+.my-navbar img{
+	height: 65px;
+}
+
+.my-navbar a{
+	color: white;
+}
+
+.my-navbar a:hover{
+	color: grey;
+}
+
 .my-container a{
 	text-decoration: none;
 	color: rgba(200, 200, 200, .8);
