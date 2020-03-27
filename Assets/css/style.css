@@ -1,7 +1,18 @@
+body{
+	background: rgba(80, 80, 80, 1);
+}
+
 .my-container a{
 	text-decoration: none;
+	color: rgba(200, 200, 200, .8);
 }
 
 .my-container img{
 	height: 200px;
+}
+
+.my-container .card{
+	background: rgba(10, 10, 10, .9);
+	color: rgba(70, 70, 70, .8);
+	margin: 3%;
 }
