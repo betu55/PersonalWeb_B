@@ -7,7 +7,7 @@ body{
 }
 
 .my-navbar img{
-	height: 65px;
+	height: 60px;
 }
 
 .my-navbar a{
@@ -31,4 +31,5 @@ body{
 	background: rgba(10, 10, 10, .9);
 	color: rgba(70, 70, 70, .8);
 	margin: 3%;
+	border-radius: 1%;
 }
