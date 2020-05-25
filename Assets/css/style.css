@@ -1,9 +1,15 @@
 body{
-	background: rgba(80, 80, 80, 1);
+	background: rgba(240, 240, 240, 1);
 }
 
 .my-navbar-container{
-	color: rgba(200, 200, 200, .9) !important;
+	color: rgba(230, 230, 230, .9) !important;
+}
+
+.my-navbar{
+	height: 100%;
+	max-width: 40%;
+	float: left;
 }
 
 .my-navbar img{
@@ -11,13 +17,16 @@ body{
 }
 
 .my-navbar a{
-	color: white;
+	color: black;
 }
 
 .my-navbar a:hover{
 	color: grey;
 }
 
+.my-container{
+	float: left;
+}
 .my-container a{
 	text-decoration: none;
 	color: rgba(200, 200, 200, .8);
