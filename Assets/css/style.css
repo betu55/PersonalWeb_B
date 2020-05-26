@@ -1,5 +1,6 @@
 body{
 	background: rgba(240, 240, 240, 1);
+	font-family: 'Open Sans' sans-serif;
 }
 
 .my-navbar-container{
@@ -8,20 +9,43 @@ body{
 
 .my-navbar{
 	height: 100%;
-	max-width: 40%;
 	float: left;
 }
 
 .my-navbar img{
 	height: 60px;
+	margin-left: 1%;
 }
 
 .my-navbar a{
 	color: black;
 }
 
+.footer img{
+	height: 40px;
+}
+
+.myRow{
+	margin: 1% 0% 0% 0%;
+}
+
+.myRow h4{
+	font-size: 18px;
+}
+
+.myRow h4:hover{
+	font-size: 18.5px;
+	color: #606060;
+}
+
+#brandName:hover{
+	color: grey;
+	font-size: 20.5px;
+}
+
 .my-navbar a:hover{
 	color: grey;
+	font-size: 16.5px;
 }
 
 .my-container{
@@ -33,7 +57,8 @@ body{
 }
 
 .my-container img{
-	height: 200px;
+	height: 160px;
+	width: 100%;
 }
 
 .my-container .card{
@@ -41,4 +66,19 @@ body{
 	color: rgba(70, 70, 70, .8);
 	margin: 3%;
 	border-radius: 1%;
+}
+
+.icon{
+	color: #101010;	
+}
+
+.hrLine{
+	border:solid;
+	border-width: 1px;
+	margin: 0% 1% 0% 1% ;
+}
+
+.copyright{
+	margin-top: 1%;
+	font-size: 14px;
 }
