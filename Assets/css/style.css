@@ -3,6 +3,28 @@ body{
 	font-family: 'Open Sans' sans-serif;
 }
 
+
+@font-face{
+	font-family: 'pirata';
+	src: url(../fonts/Redressed-Regular.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face{
+	font-family: 'hanalei';
+	src: url(../fonts/HanaleiFill-Regular.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face{
+	font-family: 'redressed';
+	src: url(../fonts/Redressed-Regular.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
 .my-navbar-container{
 	color: rgba(230, 230, 230, .9) !important;
 }
@@ -17,8 +39,10 @@ body{
 	margin-left: 1%;
 }
 
-.my-navbar a{
+.my-navbar-container a{
 	color: black;
+	font-family: redressed;
+	font-size: 18px;
 }
 
 .footer img{
@@ -30,22 +54,29 @@ body{
 }
 
 .myRow h4{
-	font-size: 18px;
+	font-size: 17px;
 }
 
 .myRow h4:hover{
-	font-size: 18.5px;
+	font-size: 17.5px;
 	color: #606060;
+}
+
+#brandName{
+	margin-top: 1%;
+	font-family: redressed;
+	font-weight: 100;
+	font-size: 22px;
 }
 
 #brandName:hover{
 	color: grey;
-	font-size: 20.5px;
+	font-size: 22.5px;
 }
 
-.my-navbar a:hover{
+.my-navbar-container a:hover{
 	color: grey;
-	font-size: 16.5px;
+	font-size: 18.5px;
 }
 
 .my-container{
@@ -69,7 +100,7 @@ body{
 }
 
 .icon{
-	color: #101010;	
+	color: #101010;
 }
 
 .hrLine{
@@ -78,7 +109,47 @@ body{
 	margin: 0% 1% 0% 1% ;
 }
 
+#twitterIcon:hover{
+	color: #15f
+}
+
+#instagramIcon:hover{
+	color: #555
+}
+
+#youtubeIcon:hover{
+	color: #f11
+}
+
+#facebookIcon:hover{
+	color: #11c
+}
+
 .copyright{
 	margin-top: 1%;
 	font-size: 14px;
+}
+
+.yt{
+	font-family: hanalei;
+	font-style: normal;
+	font-weight: 100;
+}
+
+.tw{
+	font-family: hanalei;
+	font-style: normal;
+	font-weight: 100;
+}
+
+.ig{
+	font-family: hanalei;
+	font-style: normal;
+	font-weight: 100;
+}
+
+.fb{
+	font-family: hanalei;
+	font-style: normal;
+	font-weight: 100;
 }
