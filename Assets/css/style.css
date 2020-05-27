@@ -1,8 +1,19 @@
 body{
-	background: rgba(240, 240, 240, 1);
+	background: rgba(220, 220, 220, 1);
 	font-family: 'Open Sans' sans-serif;
 }
 
+body p{
+	font-family: redressed;
+	font-weight: 100;
+	font-size: 18px;
+}
+
+body h5{
+	font-family: redressed;
+	font-weight: 100;
+	font-size: 22px;	
+}
 
 @font-face{
 	font-family: 'pirata';
@@ -37,6 +48,11 @@ body{
 .my-navbar img{
 	height: 60px;
 	margin-left: 1%;
+	background-image: url(../Images/Brand5.png);
+}
+
+.my-navbar #brand:hover{
+	background-image: url('../Images/Brand6.png');
 }
 
 .my-navbar-container a{
