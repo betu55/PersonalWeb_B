@@ -16,8 +16,8 @@ body h5{
 }
 
 @font-face{
-	font-family: 'pirata';
-	src: url(../fonts/Redressed-Regular.ttf);
+	font-family: 'east-sea';
+	src: url(../fonts/EastSeaDokdo-Regular.ttf);
 	font-style: normal;
 	font-weight: 100;
 }
@@ -36,6 +36,11 @@ body h5{
 	font-weight: 100;
 }
 
+.myP p{
+	font-family: east-sea;
+	font-weight: 100;
+	font-size: 28px;
+}
 .my-navbar-container{
 	color: rgba(230, 230, 230, .9) !important;
 }
@@ -45,20 +50,26 @@ body h5{
 	float: left;
 }
 
+.my-col .img{
+	height: 76% !important;
+	width: 30% !important;
+	padding: 0 !important;
+}
+
+#twt{
+	margin-bottom: 5%;
+}
+
 .my-navbar img{
 	height: 60px;
 	margin-left: 1%;
 	background-image: url(../Images/Brand5.png);
 }
 
-.my-navbar #brand:hover{
-	background-image: url('../Images/Brand6.png');
-}
-
 .my-navbar-container a{
 	color: black;
-	font-family: redressed;
-	font-size: 18px;
+	font-family: east-sea;
+	font-size: 28px;
 }
 
 .footer img{
@@ -77,22 +88,27 @@ body h5{
 	font-size: 17.5px;
 	color: #606060;
 }
+#tweet{
+	height: 70% !important;
+	width: 30% !important;
+	padding: 0 !important
+}
 
 #brandName{
 	margin-top: 1%;
-	font-family: redressed;
+	font-family: east-sea;
 	font-weight: 100;
-	font-size: 22px;
+	font-size: 34px;
 }
 
 #brandName:hover{
 	color: grey;
-	font-size: 22.5px;
+	font-size: 30.5px;
 }
 
 .my-navbar-container a:hover{
 	color: grey;
-	font-size: 18.5px;
+	font-size: 24px;
 }
 
 .my-container{
@@ -168,4 +184,8 @@ body h5{
 	font-family: hanalei;
 	font-style: normal;
 	font-weight: 100;
+}
+
+footer .copyright{
+	margin-bottom: 1%;
 }
