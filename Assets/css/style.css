@@ -189,3 +189,14 @@ body h5{
 footer .copyright{
 	margin-bottom: 1%;
 }
+
+.pngtree{
+	color: brown !important;
+	border: solid;
+	font-size: 12px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.pngtree:hover{
+	color: green !important;
+}
